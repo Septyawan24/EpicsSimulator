@@ -1,0 +1,38 @@
+record(longin, "dn1:RPow") {
+  field(DESC, "adc raw input")
+  field(DTYP, "stream")
+  field(INP,  "@simple.proto getval PS1")
+  field(SCAN, "I/O Intr")
+}
+
+record(ao, "dn1:XPos") {
+  field(DESC, "X Motor Position")
+}
+
+record(ao, "dn1:YPos") {
+  field(DESC, "Y Motor Position")
+}
+
+record(ao, "dn1:ZPos") {
+  field(DESC, "Z Motor Position")
+}
+
+record(ao, "dn1:PhiPos") {
+  field(DESC, "Phi Motor Position")
+}
+
+record(bo, "dn1:RelCh1")
+{
+    field(DESC, "Relay Channel 1")
+}
+
+record(bo, "dn1:RelCh2")
+{
+    field(DESC, "Relay Channel 2")
+}
+
+record(bo, "dn1:RelCh3")
+{
+    field(DESC, "Relay Channel 3")
+}
+

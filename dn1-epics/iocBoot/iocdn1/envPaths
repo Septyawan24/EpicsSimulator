@@ -1,0 +1,5 @@
+epicsEnvSet("IOC","iocdn1")
+epicsEnvSet("TOP","/home/pi/EPICS/dn1")
+epicsEnvSet("EPICS_BASE","/home/pi/EPICS/epics-base")
+epicsEnvSet("ASYN","/home/pi/EPICS/support/asyn")
+epicsEnvSet("STREAM","/home/pi/EPICS/support/StreamDevice")

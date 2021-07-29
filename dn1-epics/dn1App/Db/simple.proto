@@ -1,0 +1,4 @@
+Terminator = CR LF;
+getval {
+ in "%d";
+}
